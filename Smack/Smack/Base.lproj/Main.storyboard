@@ -212,7 +212,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqj-qy-2iX">
                                 <rect key="frame" x="322" y="37" width="30" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="closeButton"/>
+                                <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="closePressed:" destination="Mhs-LO-9CP" eventType="touchUpInside" id="zXe-eb-gLL"/>
                                 </connections>
@@ -315,8 +315,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1w1-kn-nab">
-                                <rect key="frame" x="293" y="28" width="82" height="28"/>
-                                <state key="normal" title="Button" image="closeButton"/>
+                                <rect key="frame" x="347" y="28" width="28" height="28"/>
+                                <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="closedPressed:" destination="UD5-9A-W4p" eventType="touchUpInside" id="B6W-w3-kj3"/>
                                 </connections>

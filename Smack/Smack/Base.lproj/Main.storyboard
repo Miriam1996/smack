@@ -241,7 +241,7 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="ee4-dj-yp8"/>
                                         </constraints>
-                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -258,7 +258,7 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="3Bh-1F-VmX"/>
                                         </constraints>
-                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
@@ -472,7 +472,7 @@
                         <outlet property="emailText" destination="1as-hS-9al" id="Cdg-Km-o2M"/>
                         <outlet property="passwordText" destination="fvb-9p-myV" id="MeT-Xn-ott"/>
                         <outlet property="userImage" destination="Twf-Qu-Jvj" id="a5O-Ic-hy9"/>
-                        <outlet property="userNameText" destination="1as-hS-9al" id="3lD-P8-qQ8"/>
+                        <outlet property="userNameText" destination="Uqq-3h-Sng" id="e7D-Id-piG"/>
                         <segue destination="BUc-E0-vvI" kind="unwind" identifier="unwindToChannel" unwindAction="prepareforUnWindWithSegue:" id="rDk-kN-je5"/>
                     </connections>
                 </viewController>

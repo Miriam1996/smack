@@ -24,6 +24,7 @@
 		E37802022245981E00FF8840 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37802012245981E00FF8840 /* LoginVC.swift */; };
 		E381966B22A894D900226066 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E381966A22A894D900226066 /* AvatarPickerVC.swift */; };
 		E381966D22A898BB00226066 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E381966C22A898BB00226066 /* AvatarCell.swift */; };
+		E381966F22A8A8FA00226066 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E381966E22A8A8FA00226066 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		E37802012245981E00FF8840 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E381966A22A894D900226066 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E381966C22A898BB00226066 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		E381966E22A8A8FA00226066 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F118496499EDE70C7EA72892 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -160,6 +162,7 @@
 				E37801FC22448DC600FF8840 /* GradientView.swift */,
 				E31FF191224AC3CC0019E8FD /* RoundedButton.swift */,
 				E381966C22A898BB00226066 /* AvatarCell.swift */,
+				E381966E22A8A8FA00226066 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				E31FF15F224708320019E8FD /* CreateAccountVC.swift in Sources */,
 				E381966B22A894D900226066 /* AvatarPickerVC.swift in Sources */,
 				E31FF192224AC3CC0019E8FD /* RoundedButton.swift in Sources */,
+				E381966F22A8A8FA00226066 /* CircleImage.swift in Sources */,
 				E37801FB224481F700FF8840 /* ChannelVC.swift in Sources */,
 				E31FF194224AD35F0019E8FD /* UserDataService.swift in Sources */,
 				E37801F9224481E500FF8840 /* ChatVC.swift in Sources */,

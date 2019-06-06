@@ -9,7 +9,12 @@
 import UIKit
 
 class CreateAccountVC: UIViewController {
-    
+    override func viewDidAppear(_ animated: Bool) {
+        if UserDataService.instance.avatarName != ""{
+            userImage.image = UIImage(named: UserDataService.instance.avatarName)
+            avatarName = UserDataService.instance.avatarName
+        }
+    }
     //outlets
     @IBOutlet weak var userNameText: UITextField!
     @IBOutlet weak var emailText: UITextField!

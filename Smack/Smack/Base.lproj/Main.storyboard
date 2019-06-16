@@ -130,7 +130,7 @@
                                 <color key="sectionIndexColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="xrk-Y8-smr">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="channelCell" id="xrk-Y8-smr" customClass="ChannelCell" customModule="Smack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xrk-Y8-smr" id="6bW-Hh-3Mg">
@@ -146,12 +146,15 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="abE-a8-j2S" secondAttribute="trailing" constant="287" id="7lt-OS-qed"/>
-                                                <constraint firstItem="abE-a8-j2S" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6bW-Hh-3Mg" secondAttribute="leading" symbolic="YES" id="Cet-hq-xau"/>
+                                                <constraint firstItem="abE-a8-j2S" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6bW-Hh-3Mg" secondAttribute="leading" constant="20" symbolic="YES" id="Cet-hq-xau"/>
                                                 <constraint firstItem="abE-a8-j2S" firstAttribute="centerY" secondItem="6bW-Hh-3Mg" secondAttribute="centerY" id="d3u-Nb-ZOP"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="abE-a8-j2S" id="gsf-p3-MA4"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -180,6 +183,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="cQD-V0-47z" id="gp1-SP-Gaz"/>
+                        <outlet property="tableView" destination="ayr-3T-hrO" id="CuZ-UZ-Q7b"/>
                         <outlet property="userImg" destination="j1b-PZ-eeM" id="Vqt-hW-BaZ"/>
                         <segue destination="Mhs-LO-9CP" kind="show" identifier="toLogin" id="UxS-yE-nzd"/>
                     </connections>
